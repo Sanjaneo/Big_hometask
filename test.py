@@ -2,6 +2,8 @@ import telebot
 import config
 from telebot import types
 
+from test_file_reading import FileReader
+
 client = telebot.TeleBot(config.token)
 
 
@@ -21,26 +23,13 @@ def get_category(message):
     client.send_message(message.chat_id, "Выберите тему для прохождения теста:", reply_markup=markup_inline)
 
 
-@client.callback_query_handler(func=lambda call:True)
+@client.callback_query_handler(func=lambda call: True)
 def chosen_category(call):
-    my_class = None
-    if call.data == config.name_of_file_1:
-        pass
-    elif call.data == config.name_of_file_2:
-        pass
-    elif call.data == config.name_of_file_3:
-        pass
-    elif call.data == config.name_of_file_4:
-        my_class = MyClass("category_4_file_name")
-        pass
-    elif call.data == config.name_of_file_5:
-        pass
-    elif call.data == config.name_of_file_6:
-        pass
-    elif call.data == config.name_of_file_7:
-        pass
-    else:
-        pass
+    file_reader = FileReader(call.data)
+    itog_class = ItogClass()
 
-    my_class.start()
-    my_class.some_method()
+    for concrete_question in file_reader.question_list:
+        my_class.sent_question_text(concrete_question)
+        my_class.send_answer_variant(concrete_question)
+        answer = my_class.wait_user_answer()
+        itog_class.add_answer(concrete_question, answer)

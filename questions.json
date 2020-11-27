@@ -1,6 +1,6 @@
 {
 	"question_1": {
-		"text": "question_text -------------",
+		"question_text": "question_text -------------",
 		"answers": {
 			"1": {
 				"text": "text answer",
@@ -21,7 +21,7 @@
 		}
 	},
 	"question_2": {
-		"text": "question_text -------------",
+		"question_text": "question_text -------------",
 		"answers": {
 			"1": {
 				"text": "text answer",
