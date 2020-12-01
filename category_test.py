@@ -3,7 +3,7 @@ from telebot import types
 from client import client
 
 
-class CategoryTest:
+class QuestionsBlock:
     def __init__(self, chat_id, file_name):
         with open(file_name, "r") as f:
             self.question_list: dict = json.load(f)
