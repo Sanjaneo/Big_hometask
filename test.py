@@ -1,8 +1,8 @@
 import telebot
 import config
 from telebot import types
-
-from test_file_reading import FileReader
+from file_reading import FileReader
+from result import Result
 
 client = telebot.TeleBot(config.token)
 
@@ -26,10 +26,9 @@ def get_category(message):
 @client.callback_query_handler(func=lambda call: True)
 def chosen_category(call):
     file_reader = FileReader(call.data)
-    itog_class = ItogClass()
 
     for concrete_question in file_reader.question_list:
-        my_class.sent_question_text(concrete_question)
-        my_class.send_answer_variant(concrete_question)
-        answer = my_class.wait_user_answer()
-        itog_class.add_answer(concrete_question, answer)
+        file_reader.get_question(concrete_question)
+        file_reader.count_points()
+
+    client.send_message(id, text=)

@@ -3,13 +3,14 @@ import json
 import config
 from telebot import types
 
+client = telebot.TeleBot(config.token)
+
 
 class FileReader:
-    client = telebot.TeleBot(config.token)
-
     def __init__(self, file_name):
         with open(file_name, "r") as f:
             self.question_list = json.load(f)
+        self.count = 0
 
     @client.message_handler()
     def get_question(self, concrete_question):
@@ -21,8 +22,10 @@ class FileReader:
             list_of_answers.append(types.InlineKeyboardButton(text=str(answer["text"]),
                                                               callback_data=str(answer["is_true"])))
         markup_inline.add(list_of_answers)
-        self.client.send_message(self.client.message.chat_id, str(text) +
-                                 ". Выберите один правильный вариант ответа:", reply_markup=markup_inline)
+        client.send_message(client.message.chat_id, str(text) +
+                            ". Выберите один правильный вариант ответа:", reply_markup=markup_inline)
 
     @client.callback_query_handler(func=lambda call: True)
-    def count_points(call):
+    def count_points(self, call):
+        if call.data == "true":
+            self.count += 1
