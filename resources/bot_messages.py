@@ -1,3 +1,6 @@
+BOT_INFO_MESSAGE = "Info"
+BOT_START_MESSAGE = ""
+
 TEST_SELECT_CATEGORY = "Выберите тему для прохождения теста:"
 
 TEST_PASS_ANSWER = "Верный ответ"

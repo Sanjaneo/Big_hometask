@@ -2,7 +2,17 @@ from client import client
 import config
 from client_storage import ClientStorage
 from menu import create_category_menu
-from resources.bot_messages import TEST_SELECT_CATEGORY
+from resources.bot_messages import TEST_SELECT_CATEGORY, BOT_INFO_MESSAGE, BOT_START_MESSAGE
+
+
+@client.message_handler(commands=["start"])
+def print_info(call):
+    client.send_message(call.from_user.id, BOT_START_MESSAGE)
+
+
+@client.message_handler(commands=["info"])
+def print_info(call):
+    client.send_message(call.from_user.id, BOT_INFO_MESSAGE)
 
 
 @client.message_handler(commands=["start_test"])
