@@ -1,9 +1,7 @@
 from telebot import types
-from category_test import QuestionsBlock
 from client import client
 import config
-
-current_block = None
+from client_storage import ClientStorage
 
 
 @client.message_handler(commands=["start_test"])
@@ -27,14 +25,12 @@ def get_category(message):
                                                             config.name_of_file_5, config.name_of_file_6,
                                                             config.name_of_file_7, config.name_of_file_8])
 def chosen_category(call):
-    global current_block
-    current_block = QuestionsBlock(call.from_user.id, call.data)
-    current_block.start_test()
+    ClientStorage.init_client(call.from_user.id, call.data).start_test()
 
 
 @client.callback_query_handler(lambda query: query.data in ["true", "false"])
 def get_answer(call):
-    global current_block
+    current_block = ClientStorage.get_client(call.from_user.id)
     if call.data == "true":
         client.send_message(current_block.chat_id, text="Верный ответ")
         current_block.true_counter += 1
@@ -47,6 +43,7 @@ def get_answer(call):
     else:
         client.send_message(call.message.chat.id, text="Тест окончен. Вы набрали " + str(current_block.true_counter) +
                                                        "/" + str(len(current_block.question_list)) + " баллов.")
+        ClientStorage.remove_client(call.from_user.id)
 
 
 client.polling(none_stop=True, interval=0)
