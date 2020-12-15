@@ -1,0 +1,212 @@
+{
+	"question_1": {
+		"question_text": "What functions of management did Henri Fayol propose?",
+		"answers": {
+			"1": {
+				"text": "planning, controlling",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "organizing, coordinating",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "planning, organizing, commanding, coordinating, and controlling",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "commanding, coordinating, controlling, planning",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_2": {
+		"question_text": "Which of the approaches to management theory below emphasizes rationality and making organizations and workers as efficient as possible?",
+		"answers": {
+			"1": {
+				"text": "classical",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "humanistic",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "contemporary",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "none of the above",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_3": {
+		"question_text": "These five functions of management (Set objectives, organize, motivate and communicate, measure, and develop people) were proposed by (choose one)",
+		"answers": {
+			"1": {
+				"text": "Adam Smith",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "Peter Drucker  ",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "Henri Fayol",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "Henry Ford",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_4": {
+		"question_text": "These five functions of management (planning, organizing, commanding, coordinating, and controlling) were proposed by (choose one)",
+		"answers": {
+			"1": {
+				"text": "Adam Smith",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "Peter Drucker",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "Henri Fayol",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "Henry Ford",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_5": {
+		"question_text": "The idea that organizations should be managed on an impersonal, rational basis was proposed by ",
+		"answers": {
+			"1": {
+				"text": "Peter Senge",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "Abraham Maslow",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "Frank and Lillian Gilbreth",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "Max Weber",
+				"is_true": "true"
+			}
+		}
+	},
+	"question_6": {
+		"question_text": "For first-time managers, the least challenging relationship change is with former peers",
+		"answers": {
+			"1": {
+				"text": "true",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "false",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "partly true",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "none of the above",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_7": {
+		"question_text": "Who believed that management was an activity common to all business endeavors, government, and even the home",
+		"answers": {
+			"1": {
+				"text": "Henri Fayol",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "Adam Smith",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "Peter Drucker",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "Henry Ford",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_8": {
+		"question_text": "For what level of managers, the primary focus is monitoring the external environment and determining the best strategy to be competitive",
+		"answers": {
+			"1": {
+				"text": "Middle",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "Top",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "Low",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "for all",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_9": {
+		"question_text": "”Providing employees knowledge and skills necessary to do a particular task” is the definition of",
+		"answers": {
+			"1": {
+				"text": "training",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "development",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "counseling",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "employee orientation",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_10": {
+		"question_text": "«When a more experienced employee guides another to develop professional development» is the definition of",
+		"answers": {
+			"1": {
+				"text": "transfer of training",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "induction",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "counseling",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "mentoring",
+				"is_true": "true"
+			}
+		}
+	}
+}

@@ -1,0 +1,256 @@
+{
+	"question_1": {
+		"question_text": "“Reports the amount of assets, liabilities, and stockholders’ equity of an accounting entity at a point in time” this is a definition of",
+		"answers": {
+			"1": {
+				"text": "income statement",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "balance sheet",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "statement of cash flows",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "statement of stockholders equity",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_2": {
+		"question_text": "”Reports inflows and outflows of cash during the accounting period in the categories of operating, investing, and financing” this is a definition of",
+		"answers": {
+			"1": {
+				"text": "income statement",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "balance sheet",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "statement of cash flows",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "statement of stockholders equity",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_3": {
+		"question_text": "The Accounting Equation formula looks like:",
+		"answers": {
+			"1": {
+				"text": "SE=A+L",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "A=L+SE",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "SE+A=L",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "None of the above",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_4": {
+		"question_text": "Which one of the following is not an external user of accounting information?",
+		"answers": {
+			"1": {
+				"text": "Investor",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "Creditor",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "Manager",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "Customer",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_5": {
+		"question_text": "In a T-account, the balance is equal to:",
+		"answers": {
+			"1": {
+				"text": "the total of all debit entries",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "the total of all credit entries",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "the difference between the total of debit entries and the total of credit entries",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "the total of all debit and credit entries",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_6": {
+		"question_text": "Which of the following is not an investing cash flow?",
+		"answers": {
+			"1": {
+				"text": "purchase of marketable securities for $25,000 cash",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "sale of land for $28,000 cash",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "sale of 2,500 shares of common stock for $15 each",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "purchase of equipment for $500 cash",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_7": {
+		"question_text": "The following data belongs to Care Company:
+		*
+		Accounts
+		receivable
+		on
+		December
+		31,
+		2016: $60,
+		000
+		*
+		Accounts
+		receivable
+		on
+		December
+		31,
+		2017: $40,
+		000
+		*
+		Net
+		credit
+		sales
+		during
+		the
+		year
+		2017: $200,
+		000
+		Based
+		on
+		the
+		above
+		information,
+		the
+		net
+		cash
+		collected
+		from
+		customers
+		by
+		Care
+		Company
+		during
+		the
+		year
+		2017
+		is: ",
+		"answers": {
+			"1": {
+				"text": "$180,000",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "$220,000 ",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "$240,000",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "$260,000",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_8": {
+		"question_text": "A person who purchases common stock of a corporation is known as:",
+		"answers": {
+			"1": {
+				"text": "preferred stockholder",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "creditor",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "bond holder",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "common stockholder",
+				"is_true": "true"
+			}
+		}
+	},
+	"question_9": {
+		"question_text": "Which of the following cannot be a component of stockholders’ equity section of the balance sheet?",
+		"answers": {
+			"1": {
+				"text": "additional paid-in capital",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "treasury stock",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "long term loan  ",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "retained earnings",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_10": {
+		"question_text": "Which of the following is not a correct statement?",
+		"answers": {
+			"1": {
+				"text": "capital expenditures become a part of balance sheet",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "revenue expenditures are shown in the income statement",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "revenue receipts become a part of balance sheet",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "revenue receipts are shown in the income statement",
+				"is_true": "false"
+			}
+		}
+	}
+}

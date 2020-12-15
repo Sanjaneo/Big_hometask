@@ -1,0 +1,212 @@
+{
+	"question_1": {
+		"question_text": "Generally, investors view the announcement of an open-market repurchase program as",
+		"answers": {
+			"1": {
+				"text": "a nonevent that does not affect the stock price",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "very bad news, and the stock price plunges",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "good news, and the stock price increases",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "bad news, and the stock price drops",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_2": {
+		"question_text": "Which of these dates, when arranged in chronological order, occurs last?",
+		"answers": {
+			"1": {
+				"text": "dividend payment date",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "ex-dividend date",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "dividend declaration date",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "record date",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_3": {
+		"question_text": "Which voting system is most friendly towards minority shareholders?",
+		"answers": {
+			"1": {
+				"text": "straight voting",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "dual-class share voting",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "majority voting ",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "cumulative voting",
+				"is_true": "true"
+			}
+		}
+	},
+	"question_4": {
+		"question_text": "Which of the following types of projects have the lowest risk?",
+		"answers": {
+			"1": {
+				"text": "expansions of existing business",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "new products",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "cost improvements",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "speculative ventures",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_5": {
+		"question_text": "What is the principal amount of a bond that is repaid at the end of the loan term called?",
+		"answers": {
+			"1": {
+				"text": "face value",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "coupon",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "accrued price",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "market price",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_6": {
+		"question_text": "Which of the following is a statement of semistrong form efficiency?",
+		"answers": {
+			"1": {
+				"text": "stock prices will adjust immediately to public information",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "stock prices reflect all information",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "stock prices will adjust to newly published information after a long time delay",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "sprices reflect all information and stock prices will adjust to newly published information after a long time delay",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_7": {
+		"question_text": "The spot GBP/USD exchange rate is 0.5025/USD, and the one-year forward rate is GBP 0.5048/USD. If the annual interest rate on dollar CDs is 6 percent, what would you expect the annual interest to be on GBP CDs?",
+		"answers": {
+			"1": {
+				"text": "5.52 percent",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "6.49 percent",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "3.55 percent",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "8.25 percent",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_8": {
+		"question_text": "Travis is buying a car and will finance it with a loan which requires monthly payments of $265 for the next 4 years. His car payments can be described by which one of the following terms?",
+		"answers": {
+			"1": {
+				"text": "annuity",
+				"is_true": "true"
+			},
+			"2": {
+				"text": "factor",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "consol",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "perpetuity",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_9": {
+		"question_text": "You buy a 10-year 10 percent annual coupon bond at par value, $1,000. You sell the bond three years later for $1,100. What is your rate of return over this three-year period? Write the answer as a whole number in percent, e.g. 10.",
+		"answers": {
+			"1": {
+				"text": "30",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "40",
+				"is_true": "true"
+			},
+			"3": {
+				"text": "50",
+				"is_true": "false"
+			},
+			"4": {
+				"text": "60",
+				"is_true": "false"
+			}
+		}
+	},
+	"question_10": {
+		"question_text": "If the correlation coefficient between the returns two stocks is +1.0, the standard deviation of return for stock A is 12 percent, and that for stock B is 17 percent, calculate the covariance between stock A and stock B",
+		"answers": {
+			"1": {
+				"text": "1",
+				"is_true": "false"
+			},
+			"2": {
+				"text": "0.01",
+				"is_true": "false"
+			},
+			"3": {
+				"text": "0.02",
+				"is_true": "true"
+			},
+			"4": {
+				"text": "none of the above",
+				"is_true": "false"
+			}
+		}
+	}
+}
