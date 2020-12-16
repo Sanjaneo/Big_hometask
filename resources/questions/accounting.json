@@ -126,51 +126,7 @@
 		}
 	},
 	"question_7": {
-		"question_text": "The following data belongs to Care Company:
-		*
-		Accounts
-		receivable
-		on
-		December
-		31,
-		2016: $60,
-		000
-		*
-		Accounts
-		receivable
-		on
-		December
-		31,
-		2017: $40,
-		000
-		*
-		Net
-		credit
-		sales
-		during
-		the
-		year
-		2017: $200,
-		000
-		Based
-		on
-		the
-		above
-		information,
-		the
-		net
-		cash
-		collected
-		from
-		customers
-		by
-		Care
-		Company
-		during
-		the
-		year
-		2017
-		is: ",
+		"question_text": "The following data belongs to Care Company:\n* Accounts receivable on December 31, 2016: $60,000\n* Accounts receivable on December 31, 2017: $40,000\n* Net credit sales during the year 2017: $200,000\nBased on the above information, the net cash collected from customers by Care Company during the year 2017 is:",
 		"answers": {
 			"1": {
 				"text": "$180,000",
