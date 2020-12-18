@@ -10,7 +10,7 @@ class QuestionsBlock:
         self.user = user
         self.user_id = self.user.id
 
-        with open(f'{os.getcwd()}\\resources\\questions\\{file_name}.json', mode="r", encoding="utf8") as f:
+        with open(f'{os.getcwd()}/resources/questions/{file_name}.json', mode="r", encoding="utf8") as f:
             self.question_list: dict = json.load(f)
         self.count = 0
         self.true_counter = 0
